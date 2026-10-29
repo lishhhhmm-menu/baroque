@@ -1,92 +1,362 @@
 [
-    {
-        "id": "appetizers",
-        "icon": "🥗",
-        "translations": {
-            "en": {
-                "name": "Appetizers"
-            },
-            "el": {
-                "name": "Ορεκτικά"
-            },
-            "it": {
-                "name": "Antipasti"
-            }
-        }
-    },
-    {
-        "id": "mains",
-        "icon": "🍽️",
-        "translations": {
-            "en": {
-                "name": "Main Courses"
-            },
-            "el": {
-                "name": "Κύρια Πιάτα"
-            },
-            "it": {
-                "name": "Piatti Principali"
-            }
-        }
-    },
-    {
-        "id": "pasta",
-        "icon": "🍝",
-        "translations": {
-            "en": {
-                "name": "Pasta"
-            },
-            "el": {
-                "name": "Ζυμαρικά"
-            },
-            "it": {
-                "name": "Pasta"
-            }
-        }
-    },
-    {
-        "id": "seafood",
-        "icon": "🦞",
-        "translations": {
-            "en": {
-                "name": "Seafood"
-            },
-            "el": {
-                "name": "Θαλασσινά"
-            },
-            "it": {
-                "name": "Pesce"
-            }
-        }
-    },
-    {
-        "id": "desserts",
-        "icon": "🍰",
-        "translations": {
-            "en": {
-                "name": "Desserts"
-            },
-            "el": {
-                "name": "Επιδόρπια"
-            },
-            "it": {
-                "name": "Dolci"
-            }
-        }
-    },
-    {
-        "id": "beverages",
-        "icon": "🍹",
-        "translations": {
-            "en": {
-                "name": "Beverages"
-            },
-            "el": {
-                "name": "Ποτά"
-            },
-            "it": {
-                "name": "Bevande"
-            }
-        }
+  {
+    "id": "signature-cocktails",
+    "icon": "🍸",
+    "translations": {
+      "en": {
+        "name": "Signature Cocktails"
+      },
+      "el": {
+        "name": "Εκλεκτά Κοκτέιλ του Μπαρ"
+      },
+      "it": {
+        "name": "Cocktail d'Autore"
+      }
     }
+  },
+  {
+    "id": "classic-cocktails",
+    "icon": "🍹",
+    "translations": {
+      "en": {
+        "name": "Classic Cocktails"
+      },
+      "el": {
+        "name": "Κλασικά Κοκτέιλ"
+      },
+      "it": {
+        "name": "Cocktail Classici"
+      }
+    }
+  },
+  {
+    "id": "premium-cocktails",
+    "icon": "🥃",
+    "translations": {
+      "en": {
+        "name": "Premium Cocktails"
+      },
+      "el": {
+        "name": "Κορυφαία Κοκτέιλ"
+      },
+      "it": {
+        "name": "Cocktail Pregiati"
+      }
+    }
+  },
+  {
+    "id": "low-alcohol-cocktails",
+    "icon": "🥂",
+    "translations": {
+      "en": {
+        "name": "Low-Alcohol Cocktails"
+      },
+      "el": {
+        "name": "Κοκτέιλ Χαμηλού Αλκοόλ"
+      },
+      "it": {
+        "name": "Cocktail Leggeri"
+      }
+    }
+  },
+  {
+    "id": "non-alcoholic-cocktails",
+    "icon": "🥤",
+    "translations": {
+      "en": {
+        "name": "Non-Alcoholic Cocktails"
+      },
+      "el": {
+        "name": "Κοκτέιλ Χωρίς Αλκοόλ"
+      },
+      "it": {
+        "name": "Cocktail Analcolici"
+      }
+    }
+  },
+  {
+    "id": "aperitivos",
+    "icon": "🍷",
+    "translations": {
+      "en": {
+        "name": "Aperitivos"
+      },
+      "el": {
+        "name": "Απεριτίφ"
+      },
+      "it": {
+        "name": "Aperitivi"
+      }
+    }
+  },
+  {
+    "id": "maki-rolls",
+    "icon": "🍣",
+    "translations": {
+      "en": {
+        "name": "Maki Sushi Rolls"
+      },
+      "el": {
+        "name": "Ρολάκια Μάκι Σούσι"
+      },
+      "it": {
+        "name": "Rotoli Maki Sushi"
+      }
+    }
+  },
+  {
+    "id": "inside-out-rolls",
+    "icon": "🍣",
+    "translations": {
+      "en": {
+        "name": "Inside Out Uramaki Rolls"
+      },
+      "el": {
+        "name": "Ανάποδα Ρολάκια Σούσι"
+      },
+      "it": {
+        "name": "Rotoli Uramaki"
+      }
+    }
+  },
+  {
+    "id": "nigiri",
+    "icon": "🍣",
+    "translations": {
+      "en": {
+        "name": "Nigiri Sushi"
+      },
+      "el": {
+        "name": "Νιγκίρι Σούσι"
+      },
+      "it": {
+        "name": "Nigiri Sushi"
+      }
+    }
+  },
+  {
+    "id": "sashimi",
+    "icon": "🐟",
+    "translations": {
+      "en": {
+        "name": "Fresh Sashimi"
+      },
+      "el": {
+        "name": "Σασίμι Φρέσκο Ψάρι"
+      },
+      "it": {
+        "name": "Sashimi Fresco"
+      }
+    }
+  },
+  {
+    "id": "noodles",
+    "icon": "🥢",
+    "translations": {
+      "en": {
+        "name": "Asian Noodles"
+      },
+      "el": {
+        "name": "Ασιατικά Νουντλς"
+      },
+      "it": {
+        "name": "Noodles Asiatici"
+      }
+    }
+  },
+  {
+    "id": "to-share",
+    "icon": "🥟",
+    "translations": {
+      "en": {
+        "name": "To Share and Finger Food"
+      },
+      "el": {
+        "name": "Πιάτα για τη Μέση"
+      },
+      "it": {
+        "name": "Piatti da Condividere"
+      }
+    }
+  },
+  {
+    "id": "salads",
+    "icon": "🥗",
+    "translations": {
+      "en": {
+        "name": "Salads"
+      },
+      "el": {
+        "name": "Σαλάτες"
+      },
+      "it": {
+        "name": "Insalate"
+      }
+    }
+  },
+  {
+    "id": "desserts",
+    "icon": "🍨",
+    "translations": {
+      "en": {
+        "name": "Desserts"
+      },
+      "el": {
+        "name": "Επιδόρπια"
+      },
+      "it": {
+        "name": "Dessert"
+      }
+    }
+  },
+  {
+    "id": "wines",
+    "icon": "🍷",
+    "translations": {
+      "en": {
+        "name": "Wines"
+      },
+      "el": {
+        "name": "Κρασιά"
+      },
+      "it": {
+        "name": "Vini"
+      }
+    }
+  },
+  {
+    "id": "beers",
+    "icon": "🍺",
+    "translations": {
+      "en": {
+        "name": "Beers"
+      },
+      "el": {
+        "name": "Μπύρες"
+      },
+      "it": {
+        "name": "Birre"
+      }
+    }
+  },
+  {
+    "id": "spirits",
+    "icon": "🥃",
+    "translations": {
+      "en": {
+        "name": "Spirits by the Glass"
+      },
+      "el": {
+        "name": "Ποτά σε Ποτήρι"
+      },
+      "it": {
+        "name": "Distillati al Bicchiere"
+      }
+    }
+  },
+  {
+    "id": "spirits-special",
+    "icon": "🥃",
+    "translations": {
+      "en": {
+        "name": "Special Spirits by the Glass"
+      },
+      "el": {
+        "name": "Ειδικά Ποτά σε Ποτήρι"
+      },
+      "it": {
+        "name": "Distillati Speciali al Bicchiere"
+      }
+    }
+  },
+  {
+    "id": "spirits-premium",
+    "icon": "🥃",
+    "translations": {
+      "en": {
+        "name": "Premium Spirits by the Glass"
+      },
+      "el": {
+        "name": "Εκλεκτά Ποτά σε Ποτήρι"
+      },
+      "it": {
+        "name": "Distillati Pregiati al Bicchiere"
+      }
+    }
+  },
+  {
+    "id": "coffees",
+    "icon": "☕",
+    "translations": {
+      "en": {
+        "name": "Coffees"
+      },
+      "el": {
+        "name": "Καφέδες"
+      },
+      "it": {
+        "name": "Caffetteria"
+      }
+    }
+  },
+  {
+    "id": "beverages",
+    "icon": "🍫",
+    "translations": {
+      "en": {
+        "name": "Hot and Cold Chocolates"
+      },
+      "el": {
+        "name": "Ζεστές και Κρύες Σοκολάτες"
+      },
+      "it": {
+        "name": "Cioccolate e Bevande"
+      }
+    }
+  },
+  {
+    "id": "tea",
+    "icon": "🫖",
+    "translations": {
+      "en": {
+        "name": "Teas and Infusions"
+      },
+      "el": {
+        "name": "Τσάι και Βότανα"
+      },
+      "it": {
+        "name": "Tè e Tisane"
+      }
+    }
+  },
+  {
+    "id": "juices",
+    "icon": "🍊",
+    "translations": {
+      "en": {
+        "name": "Fresh Juices"
+      },
+      "el": {
+        "name": "Φυσικοί Χυμοί"
+      },
+      "it": {
+        "name": "Spremute e Succhi"
+      }
+    }
+  },
+  {
+    "id": "soft-drinks",
+    "icon": "🥤",
+    "translations": {
+      "en": {
+        "name": "Soft Drinks and Refreshments"
+      },
+      "el": {
+        "name": "Αναψυκτικά και Μεταλλικά Νερά"
+      },
+      "it": {
+        "name": "Bibite e Rinfreschi"
+      }
+    }
+  }
 ]
